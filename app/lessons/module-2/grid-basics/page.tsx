@@ -265,8 +265,8 @@ export default function GridBasicsLesson() {
             <h4 className="font-semibold text-slate-900 dark:text-white mb-3">
               Dashboard Layout
             </h4>
-            <div className="grid grid-cols-4 grid-rows-3 gap-4 bg-white dark:bg-slate-800 p-4 rounded-lg h-80">
-              <div className="col-span-4 bg-blue-500 text-white p-4 rounded font-medium flex items-center justify-center">
+            <div className="grid grid-cols-4 grid-rows-3 gap-4 bg-[#4fb86b] dark:bg-slate-800 p-4 rounded-lg h-80">
+              <div className="col-span-4 bg-[#4fb86b] text-white p-4 rounded font-medium flex items-center justify-center">
                 Header
               </div>
               <div className="col-span-1 row-span-2 bg-purple-500 text-white p-4 rounded font-medium flex items-center justify-center">

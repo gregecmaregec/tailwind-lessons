@@ -208,22 +208,22 @@ export default function ContainerQueriesLesson() {
 
         <div className="@container/main bg-slate-100 dark:bg-slate-700 rounded-xl p-6 mb-8">
           <div className="bg-white dark:bg-slate-800 p-6 rounded-lg space-y-4">
-            <h3 className="text-base @[main]:md:text-xl font-bold text-slate-900 dark:text-white">
+            <h3 className="text-base @md/main:text-xl font-bold text-slate-900 dark:text-white">
               Main Container
             </h3>
             <div className="@container/card bg-slate-100 dark:bg-slate-700 p-4 rounded-lg">
-              <div className="@[card]:md:flex @[card]:md:gap-4">
+              <div className="@md/card:flex @md/card:gap-4">
                 <div className="flex-1 bg-blue-500 text-white p-4 rounded">
                   Nested Container 1
                 </div>
-                <div className="flex-1 bg-purple-500 text-white p-4 rounded mt-4 @[card]:md:mt-0">
+                <div className="flex-1 bg-purple-500 text-white p-4 rounded mt-4 @md/card:mt-0">
                   Nested Container 2
                 </div>
               </div>
             </div>
           </div>
           <code className="block mt-3 text-xs bg-white dark:bg-slate-800 p-2 rounded">
-            @container/main and @container/card with @[card]:md:flex
+            @container/main and @container/card with @md/card:flex
           </code>
         </div>
 
