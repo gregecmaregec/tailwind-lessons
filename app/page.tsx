@@ -116,18 +116,7 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Progress Section */}
-        <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-12 border border-slate-200 dark:border-slate-700">
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-            Your Learning Journey
-          </h2>
-          <div className="bg-slate-100 dark:bg-slate-700 rounded-full h-4 overflow-hidden">
-            <div className="bg-gradient-to-r from-blue-500 to-purple-600 h-full w-0 transition-all duration-300"></div>
-          </div>
-          <p className="text-sm text-slate-600 dark:text-slate-400 mt-3">
-            Start your first lesson to begin tracking progress
-          </p>
-        </div>
+
 
         {/* Modules Grid */}
         <div className="space-y-8">
