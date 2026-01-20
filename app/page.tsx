@@ -102,10 +102,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold text-slate-900 dark:text-white mb-3 tracking-tight">
-              Tailwind CSS Mastery
+              Learn to work with Tailwind CSS
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-2">
-              Your complete guide to becoming a Tailwind expert
+              A free guide for learning to work with Tailwind classes. <br></br>Big tip: install the tailwind extension for your IDE.
             </p>
             <p className="text-sm text-slate-500 dark:text-slate-400">
               {modules.length} modules • {totalLessons} lessons • ~5 hours of content
@@ -194,15 +194,15 @@ export default function Home() {
         {/* Footer */}
         <div className="mt-12 text-center">
           <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-3">Ready to Become a Tailwind Master?</h3>
+            <h3 className="text-2xl font-bold mb-3">Ready to start writing html as long as the burj khalifa??</h3>
             <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-              Start with Module 1 and work your way through each lesson. By the end, you'll be able to build beautiful, responsive UIs with confidence.
+              Sigma balls.
             </p>
             <Link
               href="/lessons/module-1/spacing-padding"
               className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-full hover:bg-blue-50 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform"
             >
-              Start Learning Now →
+              YEs →
             </Link>
           </div>
         </div>
